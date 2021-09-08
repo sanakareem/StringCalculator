@@ -49,7 +49,7 @@ public class StringCalculatorTest {
     }
     @Test
     public final void whenNegativeNumberIsUsedThenRuntimeExceptionIsThrown() {
-        StringCalculator.add6("3,-6,15,18,46,33");
+        StringCalculator.add7("3,-6,15,18,46,33");
     }
     @Test
     public final void whenNegativeNumbersAreUsedThenRuntimeExceptionIsThrown() {
@@ -64,6 +64,6 @@ public class StringCalculatorTest {
     }
     @Test
     public final void whenOneOrMoreNumbersAreGreaterThan1000IsUsedThenItIsNotIncludedInSum() {
-        Assert.assertEquals(3+1000+6, StringCalculator.add6("3,1000,1001,6,1234"));
+        Assert.assertEquals(3+1000+6, StringCalculator.add8("3,1000,1001,6,1234"));
     }
 }
