@@ -25,7 +25,7 @@ public class StringCalculator {
 	                }
 	            }
 	        }
-	        return 0; // Added return
+	        return 0; 
 	    }
 	  public static int add3(final String numbers) {
 		    int returnValue = 0;
