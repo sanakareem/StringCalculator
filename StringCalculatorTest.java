@@ -33,7 +33,7 @@ public class StringCalculatorTest {
     }
     @Test
     public final void whenMoreThan2NumbersAreUsedThenExceptionIsThrown1() {
-     StringCalculator.add4("1,2,3");
+     StringCalculator.add4("1,2,3"); 
   }
     @Test
     public final void whenAnyNumberOfNumbersIsUsedThenReturnValuesAreTheirSums() {
