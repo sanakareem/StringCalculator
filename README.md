@@ -7,4 +7,4 @@ Method: add1- This method can take 0, 1 or 2 numbers separated by comma (,).
         add5- Allow the add5 method to handle new lines between numbers (instead of commas).
         add6- Support different delimiters.
         add7- Negative numbers will throw an exception
-        add8- 
+        add8- Numbers bigger than 1000 should be ignored
