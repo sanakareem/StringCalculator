@@ -5,7 +5,7 @@ import java.util.List;
 
 public class StringCalculator {
 	  public static final void add1(final String numbers) {
-	        String[] numbersArray = numbers.split(",");
+	        String[] numbersArray = numbers.split(",");    
 	        if (numbersArray.length > 2) {
 	            throw new RuntimeException("Up to 2 numbers separated by comma (,) are allowed");
 	        } else {
